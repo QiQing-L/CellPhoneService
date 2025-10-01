@@ -11,6 +11,7 @@ public class CellPhoneApplication {
 
         System.out.print("What is the serial number? " + newPhone.getSerialNumber());
         System.out.print("What model is the Phone? " + newPhone.getPhoneNumber());
+        System.out.print("Who is the carrier?" + newPhone.getCarrier());
         System.out.print("");
 
 
