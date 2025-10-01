@@ -9,15 +9,17 @@ public class CellPhoneApplication {
 
         CellPhone newPhone = new CellPhone();
 
-        System.out.print("What is the serial number? " + newPhone.getSerialNumber());
-        System.out.print("What model is the Phone? " + newPhone.getPhoneNumber());
-        System.out.print("Who is the carrier?" + newPhone.getCarrier());
-        System.out.print("");
+        System.out.println("What is the serial number? " + newPhone.getSerialNumber());
+        System.out.println("What model is the Phone? " + newPhone.getPhoneNumber());
+        System.out.println("Who is the carrier?" + newPhone.getCarrier());
+        System.out.println("What is the phone number? " + newPhone.getPhoneNumber());
+        System.out.println("Who is the owner of the phone? " + newPhone.getOwner());
 
 
 
-//        myPhone.setPhoneNumber("");
-//        System.out.println(myPhone.getPhoneNumber());
+
+
+
 
     }
 }
